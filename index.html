@@ -1,43 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Access Points</title>
     <link rel="stylesheet" href="./css/main.css">
+
 </head>
+
 <body>
-    
-    <section>
-      
-      <div class="container">
-        
-          <div class="modal is-active">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-              
-              <section class="modal-card-body">
-                
-                    
-                    <div class="card-content">
-                      <div class="content">
-                        <div class="title is-4">Welcome to the Cabarrus County Public Wifi </div>
-                        <p>To continue you must accept the <a href="#">Terms of Use</a>.  To accept, please click "Accept and Login" below.</p>
-                        <br>
-                        <div class="subtitle is-7 is-italic">Contact a staff member if you are experiencing difficulty logging in.</div>
-                    </div>
-                    </div>
-                    <footer class="card-footer">
-                      <a href="#" style="color:red;" class="card-footer-item">Decline</a>
-                      <a href="#" class="card-footer-item">Accept and Login</a>
-                    </footer>
-                  
-              </section>
-              
+
+    <section id="main">
+
+        <div class="container">
+
+            <div id="main-modal" class="modal is-active">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+
+                    <section class="modal-card-body">
+
+
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="title is-4">Cabarrus WiFi </div>
+                                <p>To continue you must accept the <a href="#" id="terms-use-trig">Terms of Use</a>. To
+                                    accept, please click
+                                    "Accept and Login" below.</p>
+                                <br>
+                                <div class="subtitle is-7 is-italic">Contact a staff member if you are experiencing
+                                    difficulty logging in.</div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#" id="accept-button" class="card-footer-item">Accept and Login</a>
+                        </footer>
+
+                    </section>
+
+                </div>
             </div>
-          </div>
-                 
-      </div>
+            <div id="terms-modal" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+
+                    <section class="modal-card-body">
+
+
+                        <div class="card-content">
+                            <div class="content">
+                                <div id="terms-modal-header">
+                                    <p class="modal-card-title">Terms of Use</p>
+                                    <button id="close-terms-modal" class="delete close-icon" aria-label="close"></button>
+                                </div>
+                                    
+                             
+                                <div id="terms-use-container" class="is-6 terms-use">
+                                    
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec aliquet purus. Donec
+                                    dapibus aliquam ante. Aenean eu augue pretium lorem varius laoreet efficitur vitae lectus.
+                                    Quisque mollis pellentesque dui, eget tristique massa. Donec odio tortor, congue nec porta
+                                    a, viverra eu nisl. Quisque finibus leo ac arcu vestibulum, non suscipit enim consectetur.
+                                    Duis vel nisi tortor. Pellentesque porttitor mauris ac lacus lacinia ullamcorper. Nulla
+                                    facilisi. Ut lobortis, urna a maximus mollis, nulla diam imperdiet lacus, eget fermentum
+                                    neque magna nec nibh. Aliquam vitae placerat nisl. Vivamus fringilla finibus lacus, in
+                                    sollicitudin odio varius ut.
+        
+                               
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#" id="close-terms-modal" class="card-footer-item">Close</a>
+                        </footer>
+
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- <div id="terms-modal" class="modal is-info">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">Terms of Use</p>
+                        <button id="close-terms-modal" class="delete" aria-label="close"></button>
+                    </header>
+                    <section class="modal-card-body">
+
+                        <div class="is-6 terms-use">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec aliquet purus. Donec
+                            dapibus aliquam ante. Aenean eu augue pretium lorem varius laoreet efficitur vitae lectus.
+                            Quisque mollis pellentesque dui, eget tristique massa. Donec odio tortor, congue nec porta
+                            a, viverra eu nisl. Quisque finibus leo ac arcu vestibulum, non suscipit enim consectetur.
+                            Duis vel nisi tortor. Pellentesque porttitor mauris ac lacus lacinia ullamcorper. Nulla
+                            facilisi. Ut lobortis, urna a maximus mollis, nulla diam imperdiet lacus, eget fermentum
+                            neque magna nec nibh. Aliquam vitae placerat nisl. Vivamus fringilla finibus lacus, in
+                            sollicitudin odio varius ut.
+
+                            
+                        </div>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button id="close-terms-modal" class="button is-info">Back</button>
+
+                    </footer>
+                </div>
+            </div> -->
+
+        </div>
     </section>
-    </body>
+    <script src="./js/main.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "access-point-sites",
+  "version": "1.0.0",
+  "description": "This page will serve as a template for all public access wifi points",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrpatterson/Access-Points.git"
+  },
+  "keywords": [
+    "Access",
+    "Points",
+    "Wifi"
+  ],
+  "author": "Landon Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lrpatterson/Access-Points/issues"
+  },
+  "homepage": "https://github.com/lrpatterson/Access-Points#readme"
+}

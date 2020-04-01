@@ -1,0 +1,40 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Access-Points_Access-Point_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20200401-095854\\Access-Points_Access-Point_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "Access-Points_Access-Point_Homepage_0_document_0_phone.png",
+        "label": "Access-Point Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://127.0.0.1:5500/index.html",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\lrpatterson\\OneDrive - Cabarrus County\\Desktop\\Github-Repos\\Access-Points\\backstop_data\\bitmaps_reference\\Access-Points_Access-Point_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Access-Points_Access-Point_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20200401-095854\\Access-Points_Access-Point_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "Access-Points_Access-Point_Homepage_0_document_1_tablet.png",
+        "label": "Access-Point Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://127.0.0.1:5500/index.html",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\lrpatterson\\OneDrive - Cabarrus County\\Desktop\\Github-Repos\\Access-Points\\backstop_data\\bitmaps_reference\\Access-Points_Access-Point_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "Access-Points"
+}

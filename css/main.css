@@ -40,7 +40,21 @@
     background-color: #464646;
   }
   
+  .terms-use{
 
+    height: 30vh;
+  }
+  #terms-use-container {
+    overflow-y: scroll;
+  }
+  
+
+  #terms-modal-header{
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
 
   .delete, .modal-close, .is-unselectable, .button, .file, .breadcrumb, .pagination-previous,
   .pagination-next,
@@ -6401,7 +6415,7 @@
   .modal-card-head,
   .modal-card-foot {
     align-items: center;
-    background-color: whitesmoke;
+    background-color: none;
     display: flex;
     flex-shrink: 0;
     justify-content: flex-start;
@@ -6409,11 +6423,11 @@
     position: relative;
   }
   
-  .modal-card-head {
+  /* .modal-card-head {
     border-bottom: 1px solid #dbdbdb;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-  }
+  } */
   
   .modal-card-title {
     color: #363636;
